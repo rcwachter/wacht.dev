@@ -269,7 +269,6 @@ input {
     background: none;
     color: white;
     font-size: 20px;
-    letter-spacing: 1px;
     cursor: pointer;
 }
 
@@ -279,4 +278,11 @@ input {
 
 .btn__gb:hover button {
     color: rgb(103, 103, 103);
+}
+
+.error_message p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
 }
