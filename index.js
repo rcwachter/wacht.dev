@@ -19,9 +19,10 @@ var firebaseConfig = {
     email = document.getElementById('email').value
     password = document.getElementById('password').value
     full_name = document.getElementById('full_name').value
+    invite_code = document.getElementById('invite_code').value
   
     // Validate input fields
-    if (validate_email(email) == false || validate_password(password) == false || validate_field(full_name) == false) {
+    if (validate_email(email) == false || validate_password(password) == false || validate_field(full_name) == false || invite_code != "youwontguessthis!") {
       alert('One or more fields are not complete!')
       return
       // Don't continue running the code

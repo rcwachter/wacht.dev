@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 html, body {
     width: 100%;
     height: 100%;
@@ -239,4 +241,42 @@ input {
       transition-duration: 0s !important;
       transition-delay: 0s !important;
     }
-  }
+}
+
+.btn__gb {
+    position: relative;
+    display: inline-flex;
+    height: 60px;
+    width: 200px;
+    margin: 17px 20px;
+}
+
+.btn__gb .inner__gb {
+    position: absolute;
+    height: 100%;
+    width: 132.5%;
+    left: 0;
+    z-index: 0;
+    border-radius: 10px;
+    background: linear-gradient(80deg, #FFBE0B, #FB5607, #FF006E, #8338EC);
+}
+
+.btn__gb button {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.btn__gb:hover .inner__gb {
+    background: linear-gradient(80deg, #705406, #792904, #700131, #361760);
+}
+
+.btn__gb:hover button {
+    color: rgb(103, 103, 103);
+}
